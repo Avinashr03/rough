@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+            body, html {
+              height: 100%;
+              margin: 0;
+            }
+
+            .bgimg {
+              /*background-image: url('https://i.postimg.cc/1tL7tkyB/image.jpg');*/
+              background-image: url('https://i.postimg.cc/0jnS3SXS/Bg.jpg');              
+              height: 100%;
+              background-position: center;
+              background-size: cover;
+              position: relative;
+              color: white;
+              font-family: "Courier New", Courier, monospace;
+              font-size: 25px;
+            }
+
+            /* Position text in the top-left corner */
+            .topleft {
+              position: absolute;
+              top: 0;
+              left: 16px;
+            }
+
+            /* Position text in the bottom-left corner */
+            .bottomleft {
+              position: absolute;
+              bottom: 0;
+              left: 16px;
+            }
+
+            /* Position text in the middle */
+            .middle {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+            }
+
+            /* Style the <hr> element */
+            hr {
+              margin: auto;
+              width: 40%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bgimg">
+            <div class="topleft">
+                <p>Quiz Info</p>
+            </div>
+            <div class="middle">
+                <h1>WELCOME TO QUIZ SYSTEM</h1>
+                <hr>
+                <a href="LoginPage.jsp"><button>Login In</button></a>
+                <a href="SigninPage.jsp"><button>Sign In</button></a>
+            </div>
+            <div class="bottomleft">
+                <p>Quiz System</p>
+            </div>
+        </div>
+    </body>
+</html>
